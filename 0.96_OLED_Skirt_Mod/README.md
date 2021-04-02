@@ -3,9 +3,9 @@ Yet another Display Mod...
 There is already such a mod on the [VoronDesign Users Repo](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/),  but this one is printable on the V0 ;)
 
 ## Pictures
-![Exploded](/images/cad_view.png?raw=true)
+![Exploded](/0.96_OLED_Skirt_Mod/images/cad_view.png?raw=true)
 
-![Real](/images/live_view.png?raw=true)
+![Real](/0.96_OLED_Skirt_Mod/images/live_view.png?raw=true)
 
 ## STLs
 In order to print this MOD you only need to print this 3 Parts:
