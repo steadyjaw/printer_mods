@@ -12,8 +12,8 @@ There is already a skirt mod for an 0.96" OLED on the [VoronDesign Users Repo](h
 ## Printing
 
 You need to print 3 parts:
-- 1x display Mount
-- 2x shortend Skirts
+- 1x display mount (you may use accent color)
+- 2x shortened skirts
 
 ```
 ./STL/[a]_display_mount_x1.stl
@@ -26,7 +26,7 @@ You need to print 3 parts:
  2. Insert 2 BHCS M3 x6 to the display mount
  3. Use two `M2x10 Self Tapping Screws for Plastic` from BOM and snap like 6-7mm off of it. Fasten OLED with them.
  2. Remove old Skirt in the front
- 3. Add two M3 nuts to the extrusion the skirts and the display mount will be mounted to
+ 3. Add two M3 nuts to the extrusion, where the shortened skirts and the display mount will be mounted to
  4. Bolt 3 new parts to extrusion.
 You'll need two erxtra M3 screws for that!
 
