@@ -8,18 +8,15 @@ There is already a skirt mod for an 0.96" OLED on the [VoronDesign Users Repo](h
 
 ![REAL](/voron_v0/0.96_OLED_Skirt_Mod/images/live_view.png?raw=true)
 
+### Optional Display Mounts
+![VARS](/voron_v0/0.96_OLED_Skirt_Mod/images/vars_view.png?raw=true)
+
 
 ## Printing
 
 You need to print 3 parts:
 - 1x display mount (you may use accent color)
-- 2x shortened skirts
-
-```
-./STL/[a]_display_mount_x1.stl
-./STL/skirt_front_left_x1.stl
-./STL/skirt_front_right_x1.stl
-```
+- 2x shortened skirts (lef and right)
 
 ## Assembly
  1. Mounting OLED to printed Part.
