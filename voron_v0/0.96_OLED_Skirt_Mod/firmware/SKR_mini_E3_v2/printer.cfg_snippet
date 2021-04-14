@@ -1,0 +1,7 @@
+[include lcd_tweaks.cfg]
+
+[display]
+lcd_type: ssd1306
+i2c_mcu: mcu
+i2c_bus: i2c1a
+display_group: __voron_display
