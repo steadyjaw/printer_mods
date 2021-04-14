@@ -1,3 +1,4 @@
+
 # Voron V0 - Skirt Mod with 0.96" OLED
 Yet Another Display Mod...
 There is already a skirt mod for an 0.96" OLED on the [VoronDesign Users Repo](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/), but this one is printable on the V0!
@@ -28,3 +29,30 @@ You need to print 3 parts:
 You'll need two erxtra M3 screws for that!
 
 ![EXPLODED](/voron_v0/0.96_OLED_Skirt_Mod/images/exploded_view.png?raw=true)
+
+## Connection and firmware
+### SKR mini E3 v2
+There are a few options to connect the display to your MCU. This is one way.
+Make sure the pins are connected correctly:
+|Display|MCU|
+|--|--|
+|GND|GND (EXP1)|
+|VCC|+5V (EXP1)|
+|SCL|PB8 (EXP1)|
+|SDA|PB9 (EXP1)|
+
+![CONNECTION](/voron_v0/0.96_OLED_Skirt_Mod/images/connection_skr_mini_e3_v2.png?raw=true)
+
+#### printer.cfg for Klipper
+You either copy the 2 config files located in the folder `./fimware/SKR_mini_E3_v2/` to you klipper configuration folder and add the following to you `printer.cfg`:
+```
+[include display.cfg]
+[include display_data.cfg]
+```
+**Alternatively**, you just can add this to you `printer.cfg`:
+```
+[display]
+lcd_type: ssd1306
+i2c_mcu: mcu
+i2c_bus: i2c1a
+```
